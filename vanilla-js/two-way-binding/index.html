@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Two Way Binding</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif
+            }
+            div {
+                padding: 1em 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Two Binding Demo</h1>
+        </header>
+        <main>
+            Amount : <input type="text" data-model="demo.amount" />
+            <div>
+                <strong>You have entered: <span data-bind="demo.amount"></span></strong>
+            </div>
+        </main>
+        <script src="two-way-binding.js"></script>
+    </body>
+</html>
