@@ -1,0 +1,513 @@
+[
+    {
+      "id": 1,
+      "date": "14/01/2022",
+      "merchant": "PETRO SURCHARGE WAIVER",
+      "amount": 20,
+      "type": "Cr"
+    },
+    {
+      "id": 2,
+      "date": "14/01/2022",
+      "merchant": "HARIKRISHNA FUEL STATIOBANGALORE IN",
+      "amount": "2,020.00",
+      "type": "Dr"
+    },
+    {
+      "id": 3,
+      "date": "14/01/2022",
+      "merchant": "RAZ*BUNDL TECHNOLOGIES BENGALURU",
+      "amount": "1,125.00",
+      "type": "Dr"
+    },
+    {
+      "id": 4,
+      "date": "14/01/2022",
+      "merchant": "Grofers GURGAON",
+      "amount": 851,
+      "type": "Dr"
+    },
+    {
+      "id": 5,
+      "date": "13/01/2022",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 462,
+      "type": "Cr"
+    },
+    {
+      "id": 6,
+      "date": "13/01/2022",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 462,
+      "type": "Dr"
+    },
+    {
+      "id": 7,
+      "date": "13/01/2022",
+      "merchant": "OPTIVAL HEALTH SOLUTIONS BANGALORE",
+      "amount": "1,431.50",
+      "type": "Dr"
+    },
+    {
+      "id": 8,
+      "date": "12/01/2022",
+      "merchant": "AXELIASOLUTIONSPAYTM MUMBAI",
+      "amount": 502.82,
+      "type": "Dr"
+    },
+    {
+      "id": 9,
+      "date": "12/01/2022",
+      "merchant": "GOOGLE PLAY MUMBAI IN",
+      "amount": 130,
+      "type": "Dr"
+    },
+    {
+      "id": 10,
+      "date": "12/01/2022",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 731,
+      "type": "Dr"
+    },
+    {
+      "id": 11,
+      "date": "12/01/2022",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 262.8,
+      "type": "Dr"
+    },
+    {
+      "id": 12,
+      "date": "12/01/2022",
+      "merchant": "Dreamplug Technologies BANGALORE",
+      "amount": 360,
+      "type": "Dr"
+    },
+    {
+      "id": 13,
+      "date": "12/01/2022",
+      "merchant": "APOLLO TELEHEALTH INR WWW.ASKAPOLLO",
+      "amount": "1,695.89",
+      "type": "Dr"
+    },
+    {
+      "id": 14,
+      "date": "11/01/2022",
+      "merchant": "OPTIVAL HEALTH SOLUTIONS BANGALORE",
+      "amount": 342.5,
+      "type": "Dr"
+    },
+    {
+      "id": 15,
+      "date": "10/01/2022",
+      "merchant": "BB DAILY PUNE IN",
+      "amount": "1,000.00",
+      "type": "Dr"
+    },
+    {
+      "id": 16,
+      "date": "09/01/2022",
+      "merchant": "RAZ*BEEJAPURI DAIRY PRI Gurgaon",
+      "amount": 750,
+      "type": "Dr"
+    },
+    {
+      "id": 17,
+      "date": "08/01/2022",
+      "merchant": "OPTIVAL HEALTH SOLUTIONS BANGALORE",
+      "amount": 978,
+      "type": "Dr"
+    },
+    {
+      "id": 18,
+      "date": "08/01/2022",
+      "merchant": "OPTIVAL HEALTH SOLUTIONS BANGALORE",
+      "amount": 582.5,
+      "type": "Dr"
+    },
+    {
+      "id": 19,
+      "date": "08/01/2022",
+      "merchant": "APOLLO TELEHEALTH INR WWW.ASKAPOLLO",
+      "amount": "1,359.06",
+      "type": "Dr"
+    },
+    {
+      "id": 20,
+      "date": "08/01/2022",
+      "merchant": "APOLLO CLINIC SOBHA DR BANGALORE",
+      "amount": "1,010.00",
+      "type": "Dr"
+    },
+    {
+      "id": 21,
+      "date": "07/01/2022",
+      "merchant": "APOLLO PHARMACY BANGALORE IN",
+      "amount": 183.5,
+      "type": "Dr"
+    },
+    {
+      "id": 22,
+      "date": "07/01/2022",
+      "merchant": "APOLLO PHARMACY BANGALORE IN",
+      "amount": 118.65,
+      "type": "Dr"
+    },
+    {
+      "id": 23,
+      "date": "07/01/2022",
+      "merchant": "APOLLO PHARMACY BANGALORE IN",
+      "amount": 976.66,
+      "type": "Dr"
+    },
+    {
+      "id": 24,
+      "date": "07/01/2022",
+      "merchant": "APOLLO CRADLE BANGALORE",
+      "amount": 700,
+      "type": "Dr"
+    },
+    {
+      "id": 25,
+      "date": "06/01/2022",
+      "merchant": "OPTIVAL HEALTH SOLUTIONS BANGALORE",
+      "amount": 498.5,
+      "type": "Dr"
+    },
+    {
+      "id": 26,
+      "date": "06/01/2022",
+      "merchant": "PAYTM NOIDA IN",
+      "amount": 285,
+      "type": "Dr"
+    },
+    {
+      "id": 27,
+      "date": "06/01/2022",
+      "merchant": "INDWELL RETAIL PRIVATE BANGALORE",
+      "amount": 285,
+      "type": "Dr"
+    },
+    {
+      "id": 28,
+      "date": "05/01/2022",
+      "merchant": "IRCTC BANGALORE IN",
+      "amount": "5,040.00",
+      "type": "Cr"
+    },
+    {
+      "id": 29,
+      "date": "05/01/2022",
+      "merchant": "IRCTC BANGALORE IN",
+      "amount": "2,460.00",
+      "type": "Cr"
+    },
+    {
+      "id": 30,
+      "date": "05/01/2022",
+      "merchant": "WWW DINEOUT CO IN GURGAON IN",
+      "amount": "2,941.00",
+      "type": "Dr"
+    },
+    {
+      "id": 31,
+      "date": "05/01/2022",
+      "merchant": "IMPS PMT 200512554806 9036",
+      "amount": "3,300.00",
+      "type": "Cr"
+    },
+    {
+      "id": 32,
+      "date": "04/01/2022",
+      "merchant": "IBIBO GROUP PRIVATE LIMGURGAON IN",
+      "amount": "9,400.28",
+      "type": "Cr"
+    },
+    {
+      "id": 33,
+      "date": "04/01/2022",
+      "merchant": "BB DAILY PUNE IN",
+      "amount": "1,000.00",
+      "type": "Dr"
+    },
+    {
+      "id": 34,
+      "date": "04/01/2022",
+      "merchant": "IMPS PMT 200407843590 9532",
+      "amount": "47,978.00",
+      "type": "Cr"
+    },
+    {
+      "id": 35,
+      "date": "03/01/2022",
+      "merchant": "APOLLO TELEHEALTH INR WWW.ASKAPOLLO",
+      "amount": 504.98,
+      "type": "Dr"
+    },
+    {
+      "id": 36,
+      "date": "01/01/2022",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 153,
+      "type": "Dr"
+    },
+    {
+      "id": 37,
+      "date": "01/01/2022",
+      "merchant": "LIFE STYLE INTERNATIONABANGALORE IN",
+      "amount": "1,609.00",
+      "type": "Dr"
+    },
+    {
+      "id": 38,
+      "date": "31/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 184.5,
+      "type": "Dr"
+    },
+    {
+      "id": 39,
+      "date": "30/12/2021",
+      "merchant": "APOLLOHOSPITALSPAYTM CHENNAI",
+      "amount": 665.27,
+      "type": "Dr"
+    },
+    {
+      "id": 40,
+      "date": "30/12/2021",
+      "merchant": "PETRO SURCHARGE WAIVER",
+      "amount": 20,
+      "type": "Cr"
+    },
+    {
+      "id": 41,
+      "date": "30/12/2021",
+      "merchant": "HARIKRISHNA FUEL STATIOBANGALORE IN",
+      "amount": "2,020.00",
+      "type": "Dr"
+    },
+    {
+      "id": 42,
+      "date": "29/12/2021",
+      "merchant": "PayZapp Bill Pay Bangalore",
+      "amount": 719,
+      "type": "Dr"
+    },
+    {
+      "id": 43,
+      "date": "28/12/2021",
+      "merchant": "IBIBO GROUP PRIVATE LIMGURGAON IN",
+      "amount": "9,410.00",
+      "type": "Dr"
+    },
+    {
+      "id": 44,
+      "date": "27/12/2021",
+      "merchant": "NETFLIX MUMBAI IN",
+      "amount": 499,
+      "type": "Dr"
+    },
+    {
+      "id": 45,
+      "date": "27/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 265,
+      "type": "Dr"
+    },
+    {
+      "id": 46,
+      "date": "27/12/2021",
+      "merchant": "APOLLO CRADLE BANGALORE",
+      "amount": 500,
+      "type": "Dr"
+    },
+    {
+      "id": 47,
+      "date": "27/12/2021",
+      "merchant": "IMPS PMT 136110449697 9211",
+      "amount": 98,
+      "type": "Cr"
+    },
+    {
+      "id": 48,
+      "date": "26/12/2021",
+      "merchant": "BB DAILY PUNE IN",
+      "amount": "1,000.00",
+      "type": "Dr"
+    },
+    {
+      "id": 49,
+      "date": "25/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 209,
+      "type": "Dr"
+    },
+    {
+      "id": 50,
+      "date": "25/12/2021",
+      "merchant": "CINEPOLIS SHANTINIKETANBENGALURU IN",
+      "amount": 360,
+      "type": "Dr"
+    },
+    {
+      "id": 51,
+      "date": "24/12/2021",
+      "merchant": "PAYTM NOIDA IN",
+      "amount": 943.64,
+      "type": "Dr"
+    },
+    {
+      "id": 52,
+      "date": "24/12/2021",
+      "merchant": "IRCTC BANGALORE IN",
+      "amount": "6,347.42",
+      "type": "Dr"
+    },
+    {
+      "id": 53,
+      "date": "24/12/2021",
+      "merchant": "IRCTC BANGALORE IN",
+      "amount": "3,712.62",
+      "type": "Dr"
+    },
+    {
+      "id": 54,
+      "date": "24/12/2021",
+      "merchant": "TATA SKY COM MUMBAI IN",
+      "amount": "3,540.00",
+      "type": "Dr"
+    },
+    {
+      "id": 55,
+      "date": "24/12/2021",
+      "merchant": "EO TTD ONLINE COLLECTIOGURGAON IN",
+      "amount": "1,810.68",
+      "type": "Dr"
+    },
+    {
+      "id": 56,
+      "date": "24/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 280,
+      "type": "Dr"
+    },
+    {
+      "id": 57,
+      "date": "24/12/2021",
+      "merchant": "OPTIVAL HEALTH SOLUTIONS BANGALORE",
+      "amount": 910,
+      "type": "Dr"
+    },
+    {
+      "id": 58,
+      "date": "23/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 53,
+      "type": "Dr"
+    },
+    {
+      "id": 59,
+      "date": "23/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 156,
+      "type": "Dr"
+    },
+    {
+      "id": 60,
+      "date": "23/12/2021",
+      "merchant": "PayZapp Bill Pay Bangalore",
+      "amount": 719,
+      "type": "Dr"
+    },
+    {
+      "id": 61,
+      "date": "23/12/2021",
+      "merchant": "RETAIL DOMESTIC PT MUMBAI",
+      "amount": "1,316.75",
+      "type": "Dr"
+    },
+    {
+      "id": 62,
+      "date": "23/12/2021",
+      "merchant": "APOLLO CRADLE BANGALORE",
+      "amount": 500,
+      "type": "Dr"
+    },
+    {
+      "id": 63,
+      "date": "22/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 83,
+      "type": "Dr"
+    },
+    {
+      "id": 64,
+      "date": "21/12/2021",
+      "merchant": "PAYTM NOIDA IN",
+      "amount": 74,
+      "type": "Dr"
+    },
+    {
+      "id": 65,
+      "date": "20/12/2021",
+      "merchant": "CROMA BANGALORE IN",
+      "amount": "9,584.00",
+      "type": "Dr"
+    },
+    {
+      "id": 66,
+      "date": "19/12/2021",
+      "merchant": "BUNDL TECHNOLOGIES PRIVBANGALORE IN",
+      "amount": 109,
+      "type": "Dr"
+    },
+    {
+      "id": 67,
+      "date": "19/12/2021",
+      "merchant": "STAR BAZAAR BANGALORE IN",
+      "amount": "2,112.30",
+      "type": "Dr"
+    },
+    {
+      "id": 68,
+      "date": "19/12/2021",
+      "merchant": "RAZ*BUNDL TECHNOLOGIES BENGALURU",
+      "amount": 107,
+      "type": "Dr"
+    },
+    {
+      "id": 69,
+      "date": "18/12/2021",
+      "merchant": "PETRO SURCHARGE WAIVER",
+      "amount": 20,
+      "type": "Cr"
+    },
+    {
+      "id": 70,
+      "date": "18/12/2021",
+      "merchant": "WWW DINEOUT CO IN GURGAON IN",
+      "amount": 993,
+      "type": "Dr"
+    },
+    {
+      "id": 71,
+      "date": "18/12/2021",
+      "merchant": "HARIKRISHNA FUEL STATIOBANGALORE IN",
+      "amount": "2,020.00",
+      "type": "Dr"
+    },
+    {
+      "id": 72,
+      "date": "17/12/2021",
+      "merchant": "INDIAN RAILWAY CATERINGNEW DELHI IN",
+      "amount": "3,230.00",
+      "type": "Cr"
+    },
+    {
+      "id": 73,
+      "date": "17/12/2021",
+      "merchant": "IGST-VPS2235296176064-RATE 18.0 -29015",
+      "amount": 172.36,
+      "type": "Dr"
+    }
+  ]

@@ -1,0 +1,20 @@
+.tab-bar {
+    border: 1px solid #D9D9D9;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .tab-bar .tab-link {
+    padding: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #AAA;
+  }
+  
+  .tab-bar .tab-link.active {
+    background-color: #AAA;
+  }
+  
+  .tab-bar .tab-content {
+    padding: 1rem;
+    border: 1px solid #AAA;
+  }

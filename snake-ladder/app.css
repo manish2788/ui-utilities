@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.snake-ladder-container {
+  list-style: none;
+  width: 600px;
+  height: 600px;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.snake-ladder-container li {
+  border: 1px solid #CCC;
+  width: 10%;
+  height: 10%;
+  box-sizing: border-box;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.menu-links-container {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-links-container li {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  
+  .menu-links-container li.hasChild::after {
+    content: "+"
+  }
+  
+  .menu-sub-menu {
+    list-style: none;
+    border: 1px solid #CCC;
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  
+  .menu-sub-menu li {
+    padding: 1rem;
+  }
+  
+  

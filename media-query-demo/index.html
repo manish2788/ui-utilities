@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <button id="addListener">Add Listner</button>
+    <button id="removeListener">Remove Listner</button>
+    <script>
+        var paragraph = document.querySelector('p');
+        var mediaQueryList = window.matchMedia('(max-width: 600px)');
+
+        function screenTest(e) {
+            if (e.matches) {
+                /* the viewport is 600 pixels wide or less */
+                paragraph.textContent = 'This is a narrow screen — 600px wide or less.';
+                document.body.style.backgroundColor = 'pink';
+            } else {
+                /* the viewport is more than than 600 pixels wide */
+                paragraph.textContent = 'This is a wide screen — more than 600px wide.';
+                document.body.style.backgroundColor = 'aquamarine';
+            }
+        }
+
+        var addListnerButton = document.getElementById('addListener');
+        var removeListnerButton = document.getElementById('removeListener');
+        var registeredListner;
+
+        addListnerButton.addEventListener('click', evt => {
+            registeredListner = mediaQueryList.addListener(screenTest);
+            console.log(registeredListner);
+        })
+        removeListnerButton.addEventListener('click', evt => {
+            mediaQueryList.removeListener(screenTest);
+        })
+
+    </script>
+</body>
+</html>
