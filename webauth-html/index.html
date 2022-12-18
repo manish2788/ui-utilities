@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Authentication</title>
-</head>
-<body>
-    <script>
-        (async function() {
-            const isAvailable = await PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable();
-            alert(isAvailable);
-            if(isAvailable) {
-                const publicKeyCredentialCreationOptions = {
-                    challenge: Uint8Array.from(
-                        randomStringFromServer, c => c.charCodeAt(0)),
-                    rp: {
-                        name: "Duo Security",
-                        id: "duosecurity.com",
-                    },
-                    user: {
-                        id: Uint8Array.from(
-                            "UZSL85T9AFC", c => c.charCodeAt(0)),
-                        name: "lee@webauthn.guide",
-                        displayName: "Lee",
-                    },
-                    pubKeyCredParams: [{alg: -7, type: "public-key"}],
-                    authenticatorSelection: {
-                        authenticatorAttachment: "cross-platform",
-                    },
-                    timeout: 60000,
-                    attestation: "direct"
-                };
 
-                const credential = await navigator.credentials.create({
-                    publicKey: publicKeyCredentialCreationOptions
-                });
-                console.log(credential);
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Authentication</title>
+</head>
+
+<body>
+  <h1 id="message"></h1>
+  <button id="init">Init</button>
+  <script>
+    (async function () {
+      const isAvailable = await PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable();
+      document.getElementById("message").innerHTML = isAvailable;
+      if (isAvailable) {
+        const options = {
+          publicKey: {
+            rp: {
+              id: "uishots.in",
+              name: "UI Shots"
+            },
+            user: {
+              name: "manish2788@gmail.com",
+              id: new Uint8Array(16),
+              displayName: "Manish Kumar"
+            },
+            pubKeyCredParams: [{
+              type: "public-key",
+              alg: -7
+            }],
+            challenge: new Uint8Array(26),
+            authenticatorSelection: {
+              authenticatorAttachment: "platform"
             }
-        })();
-    </script>
+          }
+        };
+
+        let initButton = document.getElementById('init');
+        initButton.addEventListener('click', async () => {
+          const publicKeyCredential = await navigator.credentials.create(options);
+          document.body.append(publicKeyCredential.id);
+          console.log(publicKeyCredential);
+        })
+      }
+    })();
+  </script>
 </body>
+
 </html>
