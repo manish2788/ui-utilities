@@ -1,0 +1,18 @@
+.expanded > ul {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+li.hasChildren {
+  cursor: pointer;
+}
+
+li.hasChildren::before {
+  content: "› ";
+}
+
+li.expanded::before  {
+  content: "› ";
+  transform: rotate(-90deg);
+}

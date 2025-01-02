@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom beforeunload Dialog Example</title>
+    <style>
+        /* Styles for the modal */
+        #custom-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        // Event handler for the beforeunload event
+        window.onbeforeunload = function (event) {
+            // Show your custom modal instead of the default browser alert
+            document.getElementById('custom-modal').style.display = 'block';
+
+            // Return a custom message
+            return 'Are you sure you want to leave?';
+        };
+
+        // Function to close the custom modal and allow the page to unload
+        function leavePage() {
+            window.removeEventListener('beforeunload', beforeUnloadHandler);
+            window.location.href = 'https://example.com'; // Redirect to another page
+        }
+
+        // Function to close the custom modal and cancel the unload event
+        function stayOnPage() {
+            document.getElementById('custom-modal').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <h1>Custom beforeunload Dialog Example</h1>
+    <p>This page demonstrates a custom beforeunload dialog.</p>
+
+    <!-- Custom modal for the beforeunload event -->
+    <div id="custom-modal">
+        <p>Are you sure you want to leave?</p>
+        <button onclick="leavePage()">Leave</button>
+        <button onclick="stayOnPage()">Stay</button>
+    </div>
+</body>
+</html>

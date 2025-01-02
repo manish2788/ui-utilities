@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pub Sub</title>
+</head>
+<body>
+  <section>
+    <div>
+      <h4>Country List</h4>
+      <ul id="country-list">
+      </ul>
+    </div>
+    <div>
+      <label>Add Country</label>
+      <input type="text" id="country" />
+      <button id="add-country">Add</button>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h4>Name List</h4>
+      <ul id="name-list">
+
+      </ul>
+    </div>
+    <div>
+      <label>Add Name</label>
+      <input type="text" id="name" />
+      <button id="add-name">Add</button>
+    </div>
+    <div>
+      <button id="unsubscribe">Unsubscribe Events</button>
+    </div>
+  </section>
+  <script src="app.js" type="module"></script>
+  <script src="communicator.js" type="module"></script> <!-- Check why it cannot be added above-->
+</body>
+</html>

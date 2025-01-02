@@ -1,0 +1,42 @@
+.graph-container {
+  width: 50vw;
+  height: 50vh;
+  margin: 2%;
+  position: relative;
+  display: flex;
+}
+
+.x-axis {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.y-axis {
+  display: flex;
+  align-items: center;
+}
+
+.x-axis-label {
+  text-align: center;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  border: 1px solid #AAA;
+  border-top: transparent;
+  border-right: transparent;
+  gap: 10px;
+}
+.bars > div {
+  background-color: cornflowerblue;
+  flex-grow: 1;
+  margin-left: 1%;
+  height: 0px;
+  transition: height 2s ease-in;
+}
+
+.y-axis-label {
+  transform: rotate(-90deg);
+}

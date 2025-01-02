@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Carousel</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    image-carousel {
+      display: flex;
+    }
+    image-carousel .image-container {
+      width: 200px;
+      overflow-x: hidden;
+    }
+    image-carousel ul {
+      display: flex;
+      list-style: none;
+      transition: transform 0.4s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <image-carousel data-url="https://picsum.photos/v2/list"></image-carousel>
+  <script type="module" src="loader.js"></script>
+</body>
+</html>
